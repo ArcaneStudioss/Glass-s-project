@@ -177,12 +177,13 @@ a:hover {
 
 @media (max-width: 600px) {
     
-    h3 {
+    p {
         margin-left: 60px;
         margin-right: 60px;
     }
 
-    img {
-        max-width: 50%;
+    #imgt {
+        width: 32vh;
+        margin-left: 3%;
     }
 }
