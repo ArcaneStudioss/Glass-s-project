@@ -117,3 +117,46 @@ a:hover {
         top: -7px;
   }
 }
+
+/* Textos */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    color: #486635;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#imgt {
+    border-radius: 10px;
+    margin-left: 90px;
+    width: 200px;
+    height: 260px;
+    margin-top: 90px;
+    margin-right: 10px;
+    border: 10px solid #486635;
+}
+
+.aa:hover {
+    background: transparent;
+}
+
+@media (max-width: 600px) {
+    
+    h3 {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    img {
+        max-width: 50%;
+    }
+}
