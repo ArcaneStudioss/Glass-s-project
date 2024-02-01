@@ -60,7 +60,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #486635;
+    background-color: #4b7f2c;
+    background-image: linear-gradient(90deg, transparent, transparent, #486635);
 }
 
 #menu {
@@ -82,10 +83,9 @@ a:hover {
 
 @media (max-width: 600px) {
 
-    
-
     .font p {
         margin-left: 10px;
+        font-size: 100%;
     }
 
     #menu a {
@@ -110,7 +110,8 @@ a:hover {
         width: 100%;
         top: 70px;
         right: 0px;
-        background: #486635;
+        background: #4b7f2c;
+        background-image: linear-gradient(90deg, transparent, transparent, #486635);
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -217,6 +218,59 @@ a:hover {
     padding-top: 7px;
     padding-bottom: 7px;
     padding-right: 20px;
+}
+
+#btn-menu p {
+    padding: 0px;
+}
+
+/* footer */
+
+.sobre {
+    width: 100%;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    color: white;
+    background-color: #4b7f2c;
+    background-image: linear-gradient(90deg, transparent, transparent, #486635);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 11vh;
+}
+
+.sobre h1 {
+    font-size: 23pt;
+    color: rgb(0, 98, 0);
+    padding-bottom: 20px;
+}
+
+.logoinst img {
+    width: 16vh;
+}
+
+.logowp img {
+    margin-top: 0%;
+    width: 11vh;
+}
+
+.sobre p {
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+.sobre a {
+    padding: 20px;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 98, 0);
+    cursor: default;
 }
 
 
