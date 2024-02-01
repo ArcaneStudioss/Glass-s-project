@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
 
 * {
     text-decoration: none;
@@ -40,17 +42,18 @@ a {
     text-decoration: none;
 }
 
+.font p {
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-size: 3vh;
+}
+
 img {
     width: 110px;
 }
 
 a:hover {
     background: rgba(0, 0, 0, 0.05);
-}
-
-#logo {
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 
 #header {
@@ -72,7 +75,8 @@ a:hover {
 #menu a {
     display: block;
     padding: 0.5rem;
-}
+    font-size: 2.2vh;
+}    
 
 #btn-mobile {
     display: none;
@@ -80,6 +84,10 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+
+    #menu a {
+        font-size: 2.6vh;
+    }
   
     body::-webkit-scrollbar-thumb {
         display: none;
@@ -172,12 +180,8 @@ a:hover {
     font-size: 2.7vh;
 }
 
-#imgt {
-    border-radius: 13px;
-    width: 15%;
-    height: 15%;
-    margin-top: 90px;
-    border: 10px solid #486635;
+#logo {
+    width: 110px;
 }
 
 a:hover {
@@ -188,18 +192,20 @@ a:hover {
     display: flex;
     font-size: 22px;
     border-radius: 20px;
-    border: 10px solid #486635 ;
+    border: 7px solid #486635 ;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
 }
 
 .aa2 a {
     padding-left: 20px;
     color: black;
-    padding-top: 18px;
+    text-align: center;
+    padding-right: 20px;
 }
 
 .aa2-img {
@@ -207,6 +213,7 @@ a:hover {
     height: 50px;
     padding-top: 7px;
     padding-bottom: 7px;
+    padding-right: 20px;
 }
 
 

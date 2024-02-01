@@ -3,30 +3,28 @@
   padding: 0;
 }
 body {
-  align-items: center;
   height: 100vh;
-  gap:16px;
+  gap: 16px;
 }
 
 main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
 .card {
-  margin-top: 80px;
+  margin-top: 4vh;
   margin-left: 3%;
   margin-right: 3%;
   background-color: #fff;
-  width: 28vh;
-  height: 260px;
-  text-align: center;
-  padding-bottom: 40px;
   border-radius: 12px;
+  height: 41vh;
   box-shadow: 4px 4px 12px #aaaa;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .card img {
   width: 100%;
@@ -37,31 +35,40 @@ main {
 .card div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 7px;
+  width: 29vh;
+  height: 20vh;
+  text-align: center;
   align-items: center;
-  gap: 4px;
-  height: 50%;
+  justify-content: center;
 }
-.card h1 {
+.card .txts h1 {
   font-size: 1.2rem;
-  margin-bottom: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .card h2 {
   font-size: .9rem;
   color: #aaaa;
-  margin-bottom: 3px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .card button {
   background-color: #486635;
-  height: 30px;
+  height: 20%;
   border: none;
-  padding: 4px;
   width: 80%;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 4px;
-  margin-top: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .card button:hover {
   background-color: #346119;
