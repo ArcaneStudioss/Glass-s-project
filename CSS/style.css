@@ -155,21 +155,21 @@ a:hover {
 
 /* Textos */
 
-h1 {
+.texts h1 {
     display: flex;
     justify-content: center;
-    padding-top: 4.3%;
+    margin-top: 80px;
     color: #486635;
     font-size: 5.7vh;
 }
 
-p {
+.texts p {
     display: flex;
     justify-content: center;
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 2.9vh;
+    font-size: 2.7vh;
 }
 
 #imgt {
