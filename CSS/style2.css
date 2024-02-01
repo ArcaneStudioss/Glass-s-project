@@ -54,8 +54,6 @@ main {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .card button {
   background-color: #486635;
@@ -73,4 +71,15 @@ main {
 .card button:hover {
   background-color: #346119;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  
+  .card {
+    margin: 15%;
+  }
+
+  .font p {
+    font-size: 1.3rem;
+  }
 }
