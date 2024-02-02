@@ -83,7 +83,7 @@ a:hover {
     color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     .font p {
         margin-left: 10px;
@@ -174,16 +174,17 @@ a:hover {
     justify-content: center;
     margin-top: 80px;
     color: #486635;
-    font-size: 5.7vh;
+    font-size: 4.5vh;
     margin-bottom: 30px;
 }
 
 .texts p {
+    display: flex;
     justify-content: center;
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 2.7vh;
+    font-size: 2.4vh;
 }
 
 #logo {
@@ -270,6 +271,10 @@ a:hover {
     p {
         margin-left: 60px;
         margin-right: 60px;
+    }
+    
+    .texts p {
+        text-align: center;
     }
 
 }
