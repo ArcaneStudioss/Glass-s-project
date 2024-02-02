@@ -172,6 +172,7 @@ a:hover {
 .texts h1 {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 80px;
     color: #486635;
     font-size: 4.5vh;
