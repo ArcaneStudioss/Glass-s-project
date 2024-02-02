@@ -170,9 +170,9 @@ a:hover {
 /* Textos */
 
 .texts h1 {
-    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     margin-top: 80px;
     color: #486635;
     font-size: 4.5vh;
